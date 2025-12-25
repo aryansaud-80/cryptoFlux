@@ -4,7 +4,7 @@ import type { Coin } from "../types/Types";
 
 const Hero = () => {
   const [input, setInput] = useState("");
-  const { setFilteredCoins, allCoins, filteredCoins } = useContext(CoinContext);
+  const { setFilteredCoins, allCoins } = useContext(CoinContext);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setInput(e.target.value);

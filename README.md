@@ -62,30 +62,41 @@ VITE_API_KEY=your_coingecko_demo_api_key
 ```
 
 ### 3. Install Dependencies
+
 ```Bash
 
 npm install
 ```
+
 ### 4. Run Development Server
+
 ```Bash
 
 npm run dev
 ```
-The app will be available at: ``http://localhost:5173``
 
-# 🖼 ScreenshotsHome 
-Home PageCoin Detail Page 
+The app will be available at: `http://localhost:5173`
 
+# 🖼 ScreenshotsHome
+
+### Home Page
+
+![Home Page](./screenshots/homepage.png)
+
+### CoinDetail Page
+
+![CoinDetail Page](./screenshots/coin-detail.png)
 
 # 📊 Data Limitations & Notes
--  API Usage: This project uses the CoinGecko Public API. Please note that rate limits apply.
+
+- API Usage: This project uses the CoinGecko Public API. Please note that rate limits apply.
 
 - Pagination: Intentionally omitted to prioritize performance for the top 100 coins.
 
 - Search Scope: Searching is performed on the locally fetched dataset (Top 100) to ensure instant results.
 
-
 # 🚧 Future Roadmap
+
 - [ ] Implement Infinite Scroll/Pagination for the full market list.
 
 - [ ] Add Multi-currency support (EUR, GBP, JPY).
@@ -95,9 +106,11 @@ Home PageCoin Detail Page
 - [ ] Dark/Light mode toggle.
 
 # 📄 License
+
 This project is licensed under the MIT License.
 
 # ⭐ Credits
+
 - Data provided by CoinGecko
 
 - Charts by Recharts
